@@ -1,0 +1,30 @@
+.navbar-custom{
+  background-color: maroon;
+  colour: white;
+  text-decoration: none;
+  width: 100%;
+}
+.navbar-brand{
+  color: white;
+}
+body{
+  background-image: url("/home/emmanuel/Desktop/moringa-school-projects/pizza-bom/imgs/pz1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul{
+  padding-left: 30px;
+}
+h1{
+  text-align: center;
+  padding-top: 10%;
+  font-family: 'Permanent Marker', cursive;
+  color: maroon;
+}
+h3{
+  text-align: center;
+  padding-top: -30%;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+  color: maroon;
+}
