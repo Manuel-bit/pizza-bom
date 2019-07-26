@@ -1,30 +1,52 @@
-.navbar-custom{
+.navbar{
   background-color: maroon;
-  colour: white;
-  text-decoration: none;
-  width: 100%;
 }
-.navbar-brand{
-  color: white;
+.navbar-nav{
+  margin-left: 60px;
+}
+.navbar-nav li{
+  margin-left: 30px;
 }
 body{
-  background-image: url("/home/emmanuel/Desktop/moringa-school-projects/pizza-bom/imgs/pz1.jpg");
-  background-repeat: no-repeat;
+  background-image: url("/home/emmanuel/Desktop/moringa-school-projects/pizza-bomb/imgs/pz5.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+
 }
-ul{
-  padding-left: 30px;
+#intro h1{
+  font-size: 70px;
+  font-family: 'Lobster', cursive;
+  color: #F9A602;
 }
-h1{
-  text-align: center;
-  padding-top: 10%;
-  font-family: 'Permanent Marker', cursive;
-  color: maroon;
-}
-h3{
-  text-align: center;
-  padding-top: -30%;
+#intro h3{
+  font size:40px;
   font-family: 'Indie Flower', cursive;
-  font-weight: bolder;
-  color: maroon;
+  color: yellow;
+}
+#intro{
+  padding-top: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.overlay{
+  background-color: rgba(0,0,0,0.5);
+  height: 800px;
+}
+.social-icons{
+  display: flex;
+  text-decoration: none;
+  padding-bottom: 0px;
+  margin-left: 40px;
+
+}
+.social{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
