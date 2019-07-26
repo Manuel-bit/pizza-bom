@@ -3,6 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/oder.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
     <title>pizza bomb oder</title>
   </head>
   <body>
@@ -57,19 +58,78 @@
                 <li class="ptype">BBQ CHICKEN
                   <p class="ingredients">BARBEQUED CHICKEN,BBQ SAURCE</p>
                 </li>
+                <br>
+                <li class="ptype">HAWAIIAN PIZZA
+                  <p class="ingredients">PINEAPPLE, BACON</p>
+                </li>
               </ul>
             </div>
             </div>
           </div>
         <div class="col-sm-6">
-          <div class="card">
+          <div class="card bg-transparent">
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p><strong>how would you like your pizza!!!<strong></p>
+              <ul class="additives">
+                <li class="crust">CRISPY
+                  <p class="prize">ksh 200</p>
+                </li>
+              <br>
+                <li class="crust">STUFFED
+                  <p class="prize">ksh 250</p>
+                </li>
+                <br>
+                <li class="crust">GLUTEN FREE
+                  <p class="prize">ksh 300</p>
+                </li>
+                <br>
+                <li class="crust">WHOLE MEAT
+                  <p class="prize">ksh 350</p>
+                </li>
+              </ul>
+              <h5>TOPPINGS</H5>
+              <ul class="topings">
+                <li class="toptype">PEPERONI
+                  <P class="prize">100</p>
+                </li>
+                <br>
+                <li class="toptype">MUSHROOM
+                  <P class="prize">150</p>
+                </li>
+                <br>
+                <li class="toptype">MOZARELLA
+                  <P class="prize">200</p>
+                </li>
+              </ul>
+              <p><em>note that extra charges apply for these choices!!</em></p>
             </div>
           </div>
       </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <form class="form" action="/action_page.php">
+              <label for="pizza-size">pizza size:</label>
+              <select  class="form-control" id="pizza-size">
+                <option value="large"> large</option>
+                <option value="medium"> medium</option>
+                <option value="small"> small</option>
+              </select>
+              <label for="pizzatype">flavour:</label>
+              <input type="password" class="form-control" id="pizzatype">
+              <label for="pizzacrust">crust:</label>
+              <input type="password" class="form-control" id="pizzacrust">
+              <label for="pizzatoppings">Password:</label>
+              <input type="password" class="form-control" id="pizzatoppings">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+          </div>
+        </div>
     </div>
   </div>
 

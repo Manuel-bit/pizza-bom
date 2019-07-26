@@ -21,7 +21,27 @@ body{
 }
 .card-body{
   color: #F9A602
+
 }
 .ingredients{
   float: right;
+}
+p{
+  text-align: center;
+}
+.psize{
+  font-family: 'Indie Flower', cursive;
+  font-size: 20PX;
+}
+.ptype{
+  font-family: 'Indie Flower', cursive;
+  font-size: 20PX;
+}
+.crust{
+  font-family: 'Indie Flower', cursive;
+  font-size: 20PX;
+}
+.toptype{
+  font-family: 'Indie Flower', cursive;
+  font-size: 20PX;
 }
