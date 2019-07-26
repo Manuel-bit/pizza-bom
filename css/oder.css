@@ -12,3 +12,16 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
 }
+.prize{
+  float: right;
+}
+.overlay{
+  background-color: rgba(0,0,0,0.5);
+  height: 800px;
+}
+.card-body{
+  color: #F9A602
+}
+.ingredients{
+  float: right;
+}
