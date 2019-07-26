@@ -25,7 +25,7 @@
       <br>
       <div class="row">
         <div class="col-sm-6">
-          <div class="card bg-transparent">
+          <div class="card bg-transparent border-primary">
             <img class="card text-center">
             <div class="card-body">
               <h5>For all flavours</h5>
@@ -67,7 +67,7 @@
             </div>
           </div>
         <div class="col-sm-6">
-          <div class="card bg-transparent">
+          <div class="card bg-transparent border-danger">
             <div class="card-body">
               <p><strong>how would you like your pizza!!!<strong></p>
               <ul class="additives">
@@ -110,8 +110,8 @@
     <br>
     <div class="row">
       <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
+        <div class="card bg-transparent border-success">
+          <div class="card-body bg-transparent">
             <form class="form" action="/action_page.php">
               <label for="pizza-size">pizza size:</label>
               <select  class="form-control" id="pizza-size">
@@ -119,12 +119,29 @@
                 <option value="medium"> medium</option>
                 <option value="small"> small</option>
               </select>
-              <label for="pizzatype">flavour:</label>
-              <input type="password" class="form-control" id="pizzatype">
-              <label for="pizzacrust">crust:</label>
-              <input type="password" class="form-control" id="pizzacrust">
-              <label for="pizzatoppings">Password:</label>
-              <input type="password" class="form-control" id="pizzatoppings">
+              <br>
+              <label for="pizza-type">flavour:</label>
+              <select  class="form-control" id="pizza-type">
+                <option value="peperoni"> peperoni</option>
+                <option value="double cheese"> double cheese pizza</option>
+                <option value="bbq chicken"> bbq chicken</option>
+                <option value="huwaiian"> huwaiian</option>
+              </select>
+              <br>
+              <label for="pizza-crust">crust:</label>
+              <select  class="form-control" id="pizza-crust">
+                <option value="CRISPY"> CRISPY</option>
+                <option value="STUFFED"> STUFFED</option>
+                <option value="GLUTEN FREE"> GLUTEN FREE</option>
+              </select>
+              <br>
+              <label for="pizza-toppings">toppings:</label>
+              <select  class="form-control" id="pizza-toppings">
+                <option value="PEPERONI"> peperoni</option>
+                <option value="MUSHROOM"> MUSHROOM</option>
+                <option value="MOZARELLA"> MOZARELLA</option>
+              </select>
+              <br>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
 

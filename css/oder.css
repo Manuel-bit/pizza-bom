@@ -11,13 +11,14 @@ body{
   background-image: url("/home/emmanuel/Desktop/moringa-school-projects/pizza-bomb/imgs/pz1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  height: 1500px;
 }
 .prize{
   float: right;
 }
 .overlay{
   background-color: rgba(0,0,0,0.5);
-  height: 800px;
+  height: 1500px;
 }
 .card-body{
   color: #F9A602
@@ -32,10 +33,12 @@ p{
 .psize{
   font-family: 'Indie Flower', cursive;
   font-size: 20PX;
+  font-weight: bolder;
 }
 .ptype{
   font-family: 'Indie Flower', cursive;
   font-size: 20PX;
+  font-weight: bolder;
 }
 .crust{
   font-family: 'Indie Flower', cursive;
@@ -44,4 +47,8 @@ p{
 .toptype{
   font-family: 'Indie Flower', cursive;
   font-size: 20PX;
+}
+.form{
+  background-color: rgba(0,0,0,0.5);
+  width: 500px;
 }
