@@ -1,0 +1,14 @@
+.navbar{
+  background-color: maroon;
+}
+.navbar-nav{
+  margin-left: 60px;
+}
+.navbar-nav li{
+  margin-left: 30px;
+}
+body{
+  background-image: url("/home/emmanuel/Desktop/moringa-school-projects/pizza-bomb/imgs/pz1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
