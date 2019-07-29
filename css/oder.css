@@ -12,6 +12,15 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   height: 1500px;
+
+}
+h2{
+  font-family: 'Lobster', cursive;
+  color: #F9A602;
+}
+p{
+  font-family: 'Lobster', cursive;
+  color: #F9A602;
 }
 .prize{
   float: right;
@@ -31,6 +40,9 @@ display: none;
 .card-body{
   color: #F9A602
 
+}
+.card-body h5{
+  font-family: 'Butcherman', cursive;
 }
 .ingredients{
   float: right;
@@ -74,4 +86,10 @@ p{
 }
 .table{
   color: white;
+}
+#new-pizza h3{
+  font-family: 'Butcherman', cursive;
+}
+ul{
+  list-style: none;
 }
