@@ -16,6 +16,14 @@ body{
 .prize{
   float: right;
 }
+
+.table {
+display: none;
+}
+
+.additional-buttons {
+  display: none;
+}
 .overlay{
   background-color: rgba(0,0,0,0.5);
   height: 1500px;
@@ -51,4 +59,19 @@ p{
 .form{
   background-color: rgba(0,0,0,0.5);
   width: 500px;
+}
+.additional-info h4{
+  display: none;
+}
+.location{
+  display: none;
+}
+.additional-info h3{
+  display: none;
+}
+.additional-buttons{
+  color: white;
+}
+.table{
+  color: white;
 }

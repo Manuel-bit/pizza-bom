@@ -4,6 +4,8 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/oder.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
     <title>pizza bomb oder</title>
   </head>
   <body>
@@ -113,39 +115,81 @@
         <div class="card bg-transparent border-success">
           <div class="card-body bg-transparent">
             <form id="new-pizza">
-              <label for="pizza-size">pizza size:</label>
-              <select  class="form-control" id="pizza-size">
-                <option value="1200"> large</option>
-                <option value="800"> medium</option>
-                <option value="600"> small</option>
+              <h3>PLACE YOUR ODER NOW!!</h3>
+              <label for="type">pizza type</label>
+              <select class="form-control size">
+                <option label="peperoni" value="600">peperoni</option>
+                <option label="double cheese" value="800">double cheese</option>
+                <option label="huwaiian" value="1200">huwaiian</option>
+                <option label="BBQ chicken" value="1200">BBQ chicken</option>
               </select>
               <br>
-              <label for="pizza-type">flavour:</label>
-              <select  class="form-control" id="pizza-type">
-                <option value="peperoni"> peperoni</option>
-                <option value="double cheese"> double cheese pizza</option>
-                <option value="bbq chicken"> bbq chicken</option>
-                <option value="huwaiian"> huwaiian</option>
+              <label for="size">pizza size</label>
+              <select class="form-control size">
+                <option label="Small" value="600">Small</option>
+                <option label="Medium" value="800">Medium</option>
+                <option label="Large" value="1200">Large</option>
               </select>
               <br>
-              <label for="pizza-crust">crust:</label>
-              <select  class="form-control" id="pizza-crust">
-                <option value="CRISPY"> CRISPY</option>
-                <option value="STUFFED"> STUFFED</option>
-                <option value="GLUTEN FREE"> GLUTEN FREE</option>
+              <label for="toppings">TOPPINGS</label>
+              <select class="form-control toppings">
+                <option label="PEPERONI" value="100">Olives</option>
+                <option label="MUSHROOM" value="150">Cheese</option>
+                <option label="MOZARELLA" value="200">Pepperoni</option>
               </select>
               <br>
-              <label for="pizza-toppings">toppings:</label>
-              <select  class="form-control" id="pizza-toppings">
-                <option value="PEPERONI"> peperoni</option>
-                <option value="MUSHROOM"> MUSHROOM</option>
-                <option value="MOZARELLA"> MOZARELLA</option>
+              <label for="crust">CRISPY</label>
+              <select class="form-control crust">
+                <option label="Stuffed" value="250">Stuffed</option>
+                <option label="Gluten-Free" value="300">Gluten-Free</option>
+                <option label="Crispy" value="200">Crispy</option>
               </select>
               <br>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button class="btn btn-info order" type="submit">Order</button>
             </form>
 
           </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Order No.</th>
+            <th scope="col">Pizza Size</th>
+            <th scope="col">Toppings</th>
+            <th scope="col">Crust</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody id="pizza">
+          <tr>
+            <th scope="row">1</th>
+            <td id="size"></td>
+            <td id="toppings"></td>
+            <td id="crust"></td>
+            <td id="total"></td>
+          </tr>
+        </tbody>
+      </table>
+        <div class="additional-buttons">
+          <div class="text-center">
+          <button class="btn btn-info add-pizza" type="submit">Add Another</button>
+          <div class="additional-info">
+            <h3>The total is: <span></span></h3>
+            <h5>Would you like delivery for an additional <em>200</em>?</h5>
+            <h4>Your order has been received! We are dispatching our rider to <span></span></h4>
+            <div class="location text-center">
+              <input type="text" size="30" placeholder="Where do you live?" required />
+              <button class="btn btn-info complete" type="submit">Complete</button>
+            </div>
+          </div>
+          <br>
+          <button class="btn btn-info yes" type="submit">Yes</button>
+          <button class="btn btn-info no" type="submit">No</button>
+        </div>
+        <div class="text-right">
+          <button class="btn btn-info check-out" type="submit">Checkout</button>
         </div>
     </div>
   </div>
